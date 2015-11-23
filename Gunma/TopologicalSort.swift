@@ -1,6 +1,6 @@
 import Foundation
 
-enum TopologicalSortError: ErrorType {
+public enum TopologicalSortError: ErrorType {
     case Cyclic
 }
 
