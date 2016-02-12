@@ -40,7 +40,7 @@ let scc: Graph<Set<String>> = Graph.stronglyConnectedComponents(graph)
 let array: [String] = try Graph.topologicalSort(graph)
 ```
 
-## Cocoapods
+## CocoaPods
 
 
 ```
